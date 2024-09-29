@@ -24,8 +24,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/aac432a8bc4000d586cb9.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/aac432a8bc4000d586cb9.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
@@ -51,8 +51,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://villainravangaming:mikey_kun_781_@cluster0.fbgs1zz.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "villainravangaming")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ajnetwork1:ySypMfTFQpuoUEHk@cluster0.rk3tmfk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "ySypMfTFQpuoUEHk")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
 # Premium And Referal Settings
