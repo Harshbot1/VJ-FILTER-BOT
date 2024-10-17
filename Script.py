@@ -228,9 +228,8 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b""" 
+    CAPTION = """
+    📂<b><blockquote><b><a href="https://t.me/INFINITE_MOVIES_2024">{file_name}</a></b></blockquote>"""""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
